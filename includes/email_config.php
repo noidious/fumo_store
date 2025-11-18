@@ -5,10 +5,10 @@
  */
 
 // SMTP Configuration
-define('SMTP_HOST', 'smtp.gmail.com');              // Your SMTP server
+define('SMTP_HOST', 'sandbox.smtp.mailtrap.io');              // Your SMTP server
 define('SMTP_PORT', 587);                           // SMTP port (usually 587 for TLS, 465 for SSL)
-define('SMTP_USERNAME', 'fumostore@gmail.com');     // Your email address
-define('SMTP_PASSWORD', 'your-app-password');       // Your email password or app-specific password
+define('SMTP_USERNAME', '785caa5f30198b');     // Your email address
+define('SMTP_PASSWORD', '95412ea42c39f1');       // Your email password or app-specific password
 define('SMTP_ENCRYPTION', 'tls');                   // Encryption type: tls, ssl, or none
 
 // Email From Settings
@@ -21,10 +21,6 @@ define('EMAIL_REPLY_TO_NAME', 'Fumo Store Support');
 
 // Alternative: Use PHP's built-in mail() function (set USE_MAIL to true)
 // Note: This requires your server to have mail functionality configured
-// For XAMPP on Windows, set USE_MAIL = true and configure sendmail in php.ini
-define('USE_MAIL', true);
-
-// Enable detailed error logging for debugging
-define('EMAIL_DEBUG', true);
+define('USE_MAIL', false);
 
 ?>
